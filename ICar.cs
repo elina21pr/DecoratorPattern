@@ -8,6 +8,8 @@ namespace DecoratorPattern
 {
     public interface ICar
     {
-        void Driving();
+        string GetDescription();
+        int GetSpeed();
     }
+
 }
