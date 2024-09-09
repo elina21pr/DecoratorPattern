@@ -1,0 +1,56 @@
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# .NET Core та .NET Framework
+bin/
+obj/
+*.dll
+*.exe
+*.exe.config
+*.pdb
+*.mdb
+*.swp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Пакети NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget/
+
+# Конфігураційні файли IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.suo
+*.dotCover
+*.ncrunch*
+*.js.map
+*.csproj.user
+*.dbmdl
+*.bak
+*.log
+
+# Кеші та тимчасові файли
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# JetBrains Rider
+.idea/
+
+# Auto generated files
+Generated/
