@@ -10,9 +10,10 @@ namespace DecoratorPattern.Options
     {
         public HeatedSeats(ICar car) : base(car) { }
 
+       
         public override string GetDescription()
         {
-            return _car.GetDescription() + " Heated seats";
+            return _car.GetDescription() + " with heated seats";
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DecoratorPattern
+namespace DecoratorPattern.Options
 {
     public class AudioSystem : CarDecorator
     {
@@ -12,7 +12,7 @@ namespace DecoratorPattern
 
         public override string GetDescription()
         {
-            return _car.GetDescription() + "with AudioSystem";
+            return _car.GetDescription() + ", with AudioSystem ";
         }
     }
 }

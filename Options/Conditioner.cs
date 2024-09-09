@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace DecoratorPattern
+namespace DecoratorPattern.Options
 {
-    public class Conditiong : CarDecorator
+    public class Conditioner : CarDecorator
     {
-        public Conditiong(ICar car) : base(car) { }
+        public Conditioner(ICar car) : base(car) { }
 
         public override string GetDescription()
         {
-            return _car.GetDescription();
+            return _car.GetDescription() + "with conditing";
         }
     }
 }
