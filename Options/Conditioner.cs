@@ -13,7 +13,7 @@ namespace DecoratorPattern.Options
 
         public override string GetDescription()
         {
-            return _car.GetDescription() + "with conditing";
+            return _car.GetDescription() + "with conditiner";
         }
     }
 }
